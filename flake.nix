@@ -13,6 +13,7 @@
             pkgs.rustc
             pkgs.fuse
             pkgs.pkg-config
+            pkgs.openssl.dev
           ];
         };
       }
