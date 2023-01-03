@@ -11,6 +11,7 @@
           buildInputs = [
             pkgs.cargo
             pkgs.rustc
+            pkgs.rustfmt
             pkgs.fuse
             pkgs.pkg-config
             pkgs.openssl.dev
